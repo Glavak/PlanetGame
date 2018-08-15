@@ -1,0 +1,9 @@
+Temp
+bin
+obj
+.idea
+Library
+Library/**
+*.dll
+*.log
+*.mdb
