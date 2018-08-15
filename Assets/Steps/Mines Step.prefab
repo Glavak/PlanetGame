@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4424296235951628}
   - component: {fileID: 114961345365484744}
   m_Layer: 0
-  m_Name: Shurikens Step
+  m_Name: Mines Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

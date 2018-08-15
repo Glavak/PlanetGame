@@ -56,6 +56,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\DestroyOutOfView.cs" />
+    <Compile Include="Assets\EnemyKiller.cs" />
     <Compile Include="Assets\Managers\InputManager.cs" />
     <Compile Include="Assets\Objects\Beam.cs" />
     <Compile Include="Assets\Objects\EnemyShip.cs" />

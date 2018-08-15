@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 31831674}
   m_Layer: 0
   m_Name: Particle System Engine
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5004,6 +5004,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -89.99999
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: fed3c8fbd7babf94d8df38df2ae7dd3f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fed3c8fbd7babf94d8df38df2ae7dd3f, type: 3}
   m_IsPrefabAsset: 0
@@ -5012,6 +5016,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: fed3c8fbd7babf94d8df38df2ae7dd3f,
     type: 3}
   m_PrefabInternal: {fileID: 767009940}
+--- !u!1 &973105260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: fed3c8fbd7babf94d8df38df2ae7dd3f,
+    type: 3}
+  m_PrefabInternal: {fileID: 767009940}
+--- !u!114 &973105261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973105260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338f44a1021b8f94fa48201502f730f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BulletPrefab: {fileID: 1350110748457014, guid: 712ed5e4cfb63f349985f4a2733c1a52,
+    type: 2}
+  Cooldown: 1
 --- !u!1 &1068174573
 GameObject:
   m_ObjectHideFlags: 0
@@ -9860,7 +9883,7 @@ GameObject:
   - component: {fileID: 1543428150}
   m_Layer: 0
   m_Name: Ship
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10051,6 +10074,10 @@ Prefab:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 2a9787e70f2f516408f7ec7926040409, type: 3}
+      propertyPath: m_TagString
+      value: Planet
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a9787e70f2f516408f7ec7926040409, type: 3}
   m_IsPrefabAsset: 0
@@ -10182,6 +10209,31 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 0
     Step: {fileID: 1308121342888190, guid: 51cb70798d279e44b9327ef7bbf441be, type: 2}
+  - ProbabilityFromTime:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 300
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 0
+    Step: {fileID: 1308121342888190, guid: 70bf95d6a48f9f3418ef5007fbf9598b, type: 2}
 --- !u!4 &2058696016
 Transform:
   m_ObjectHideFlags: 0

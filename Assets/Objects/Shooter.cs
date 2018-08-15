@@ -15,7 +15,7 @@ public class Shooter : MonoBehaviour
 
             Transform bullet = Instantiate(BulletPrefab, transform.position, transform.rotation).transform;
 
-            bullet.Rotate(0,0,-90,Space.Self);
+            bullet.Rotate(90,0,0,Space.Self);
         }
 
         timeSinceShoot += Time.deltaTime;

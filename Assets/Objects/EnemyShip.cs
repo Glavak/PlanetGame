@@ -4,10 +4,11 @@ public class EnemyShip : MonoBehaviour
 {
     private float radius = 4;
     private float time;
+    private float timeOffset;
 
     private void Start()
     {
-        time = Random.Range(0, Mathf.PI * 2);
+        timeOffset = Random.Range(0, Mathf.PI * 2);
     }
 
     private void Update()
@@ -16,8 +17,9 @@ public class EnemyShip : MonoBehaviour
 
         if (time < 5f)
         {
-            transform.localPosition = new Vector3(Mathf.Sin(time), Mathf.Cos(time)) * radius;
-            transform.localRotation = Quaternion.Euler(0, 0, 270 - Mathf.Rad2Deg * time);
+            float timeOffseted = time + timeOffset;
+            transform.localPosition = new Vector3(Mathf.Sin(timeOffseted), Mathf.Cos(timeOffseted)) * radius;
+            transform.localRotation = Quaternion.Euler(0, 0, 270 - Mathf.Rad2Deg * timeOffseted);
 
             radius += Time.deltaTime;
         }

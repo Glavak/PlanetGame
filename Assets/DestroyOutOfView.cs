@@ -2,15 +2,10 @@
 
 public class DestroyOutOfView : MonoBehaviour
 {
-    private Renderer componentRenderer;
-
-    private void Start()
-    {
-        componentRenderer = GetComponentInChildren<Renderer>();
-    }
+    private const float ScreenRadius = 50;
 
     private void Update()
     {
-        if (!componentRenderer.isVisible) Destroy(gameObject, 0.5f);
+        if (transform.position.sqrMagnitude > ScreenRadius*ScreenRadius) Destroy(gameObject, 0.5f);
     }
 }
