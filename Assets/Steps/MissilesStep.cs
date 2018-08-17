@@ -39,7 +39,7 @@ public class MissilesStep : MonoBehaviour
         {
             Quaternion rotation = Quaternion.Euler(0, 0, 360f * i / MissileCount + burstsCompleted * 7);
             Transform missile = Instantiate(MissilePrefab, Vector3.zero, rotation).transform;
-            missile.Translate(Vector3.forward * 4, Space.Self);
+            missile.Translate(Vector3.up * 5, Space.Self);
 
             spawnedObjects.Add(missile);
         }

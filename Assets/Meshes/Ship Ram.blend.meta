@@ -1,14 +1,14 @@
 fileFormatVersion: 2
-guid: 96e876b8298da7c499c341fa3fc921ec
+guid: 1ad63f9cee134574f873c60242bff71e
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: unnamed
+    2100000: Atlas
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Mine
+    4300000: Ship_Ram
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

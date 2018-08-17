@@ -6,11 +6,16 @@ public class Beam : MonoBehaviour
 
     private void Start()
     {
+        if (Random.value > 0.5f)
+        {
+            RotationSpeed *= -1;
+        }
+
         Destroy(gameObject, 3);
     }
 
     private void Update()
     {
-        transform.Rotate(0, 0, -RotationSpeed * Time.deltaTime, Space.Self);
+        transform.Rotate(0, 0, RotationSpeed * Time.deltaTime, Space.Self);
     }
 }

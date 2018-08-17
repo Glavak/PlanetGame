@@ -38,6 +38,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4671664494680002}
   - component: {fileID: 114222880461509194}
+  - component: {fileID: 114183248639661634}
   - component: {fileID: 114265459255942024}
   - component: {fileID: 58080480290320560}
   m_Layer: 0
@@ -145,6 +146,17 @@ MonoBehaviour:
   BulletPrefab: {fileID: 1350110748457014, guid: b6d09e3f5fd32114aa484cb116217358,
     type: 2}
   Cooldown: 1
+--- !u!114 &114183248639661634
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1823469496548906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7edb3a0ad05a7384c8334c302087339a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114222880461509194
 MonoBehaviour:
   m_ObjectHideFlags: 1
