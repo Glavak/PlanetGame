@@ -8,7 +8,7 @@ public class InputManager : MonoBehaviour
 
     public static float GetHorizontalAxis()
     {
-        return Mathf.Clamp(Input.GetAxis("Horizontal") + instance.axisTargetPosition, -1, 1);
+        return Mathf.Clamp(Input.GetAxisRaw("Horizontal") + instance.axisTargetPosition, -1, 1);
     }
 
     public static void SetHorizontalVirtualAxis(float targetPosition)

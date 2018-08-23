@@ -8,6 +8,7 @@ public class MissilesStep : MonoBehaviour
 
     public int BurstsCount = 5;
     public float BurstInterval = 0.2f;
+    public float BurstOffset = 7;
 
     private float burstTimer;
     private float burstsCompleted;
@@ -37,7 +38,7 @@ public class MissilesStep : MonoBehaviour
     {
         for (int i = 0; i < MissileCount; i++)
         {
-            Quaternion rotation = Quaternion.Euler(0, 0, 360f * i / MissileCount + burstsCompleted * 7);
+            Quaternion rotation = Quaternion.Euler(0, 0, 360f * i / MissileCount + burstsCompleted * BurstOffset);
             Transform missile = Instantiate(MissilePrefab, Vector3.zero, rotation).transform;
             missile.Translate(Vector3.up * 5, Space.Self);
 

@@ -247,6 +247,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MagnetWithStand: {fileID: 4559080436745050}
   MagnetTip: {fileID: 4272236919833904}
-  Lifetime: 5
+  WorkTime: 8
+  AfterWorkTime: 7
   AsteroidPrefab: {fileID: 114338705378253262, guid: e26a4d8b513bc254c926e481141fe8db,
     type: 2}

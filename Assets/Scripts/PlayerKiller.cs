@@ -6,18 +6,24 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class PlayerKiller : MonoBehaviour
 {
+    public bool DestroySelf;
+    public GameObject ExplosionPrefab;
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            Destroy(other.gameObject);
+            PlayerControls player = other.GetComponent<PlayerControls>();
+            if (player != null) player.Explode();
 
-            Invoke("Restart", 1);
+            if (DestroySelf) Explode();
         }
     }
 
-    private void Restart()
+    public void Explode()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        if (ExplosionPrefab != null) Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
+
+        Destroy(this.gameObject);
     }
 }
