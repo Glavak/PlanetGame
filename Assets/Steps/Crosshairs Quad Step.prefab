@@ -51,5 +51,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: db5e51adacc888f4d8d8219584289bf5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 1799439037741182, guid: e7c746299f1a2714e918d6b58c9eb9a7, type: 2}
+  Prefab: {fileID: 1085935588958536, guid: da60a5d098e0617439c1f5ee5a35406d, type: 2}
   RandomizeRotation: 1

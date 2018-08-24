@@ -1,40 +1,38 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 public class CrosshairStep : MonoBehaviour
 {
     public GameObject CrosshairPrefab;
+    public Beam BeamPrefab;
     public int CountToSpawn = 4;
 
     private Transform player;
-    private Transform spawnedObject;
     private float timeToSpawn;
-    private int countSpawned;
 
-    private void Start()
+    private IEnumerator Start()
     {
         player = GameObject.FindWithTag("Player").transform;
+
+        for (int i = 0; i < CountToSpawn; i++)
+        {
+            yield return new WaitForSeconds(.65f);
+            SpawnCrosshair();
+        }
+
+        yield return new WaitForSeconds(4);
+
+        Destroy(gameObject);
     }
 
     private void SpawnCrosshair()
     {
-        spawnedObject = Instantiate(CrosshairPrefab, Vector3.zero, player.localRotation).transform;
+        if(player == null) return;
 
-        countSpawned++;
-    }
+        Instantiate(CrosshairPrefab, Vector3.zero, player.localRotation);
 
-    private void Update()
-    {
-        timeToSpawn -= Time.deltaTime;
-
-        if (timeToSpawn <= 0 && countSpawned < CountToSpawn)
-        {
-            SpawnCrosshair();
-            timeToSpawn = .65f;
-        }
-
-        if (spawnedObject == null && countSpawned >= CountToSpawn)
-        {
-            Destroy(gameObject);
-        }
+        Beam beam = Instantiate(BeamPrefab, Vector3.zero, player.localRotation);
+        beam.RotationSpeed = 0;
+        beam.BeamTime = 2;
     }
 }

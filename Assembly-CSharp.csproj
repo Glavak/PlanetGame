@@ -63,10 +63,12 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
+    <Compile Include="Assets\Flash.cs" />
     <Compile Include="Assets\MagnetRig.cs" />
     <Compile Include="Assets\Managers\InputManager.cs" />
     <Compile Include="Assets\Managers\StepsManager.cs" />
     <Compile Include="Assets\PlayerExplosion.cs" />
+    <Compile Include="Assets\QuadBeams.cs" />
     <Compile Include="Assets\Scripts\Beam.cs" />
     <Compile Include="Assets\Scripts\DestroyOutOfView.cs" />
     <Compile Include="Assets\Scripts\EnemyKiller.cs" />

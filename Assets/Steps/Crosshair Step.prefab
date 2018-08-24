@@ -53,4 +53,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CrosshairPrefab: {fileID: 1799439037741182, guid: 2285b09e11bf14443ad328b4bb7d9bbf,
     type: 2}
+  BeamPrefab: {fileID: 114438728852191986, guid: 43ba1a0085b8e4941be62c72bf75ae11,
+    type: 2}
   CountToSpawn: 4

@@ -35,7 +35,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4459827311939330}
-  - component: {fileID: 114922869469803542}
+  - component: {fileID: 114420461935663404}
   m_Layer: 0
   m_Name: Crosshair
   m_TagString: Untagged
@@ -70,7 +70,7 @@ Transform:
   m_Father: {fileID: 4459827311939330}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114922869469803542
+--- !u!114 &114420461935663404
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,14 +78,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1799439037741182}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7141d305abe91314387fad2fac9abb83, type: 3}
+  m_Script: {fileID: 11500000, guid: 2e9b1fe8cfdb96147a1883e21765ecd1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnObjectPrefab: {fileID: 1085935588958536, guid: 8efdd83daa7d4264d9be2e26885a6858,
-    type: 2}
+  FlashingTime: 1.5
   Visuals: {fileID: 1454186161484346}
-  FlashTime: 2.3
-  ObjectTime: 2
 --- !u!212 &212178180157166638
 SpriteRenderer:
   m_ObjectHideFlags: 1
