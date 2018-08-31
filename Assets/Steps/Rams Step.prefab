@@ -1282,7 +1282,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroySelf: 1
-  ExplosionPrefab: {fileID: 0}
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!114 &114193661697620800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1349,7 +1350,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroySelf: 1
-  ExplosionPrefab: {fileID: 0}
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!114 &114460319065769560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1374,7 +1376,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroySelf: 1
-  ExplosionPrefab: {fileID: 0}
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!114 &114560037069546226
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1387,7 +1390,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroySelf: 1
-  ExplosionPrefab: {fileID: 0}
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!114 &114562814001032734
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1400,7 +1404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroySelf: 1
-  ExplosionPrefab: {fileID: 0}
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!114 &114983624183281276
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1413,7 +1418,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DestroySelf: 1
-  ExplosionPrefab: {fileID: 0}
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!198 &198083709683381428
 ParticleSystem:
   m_ObjectHideFlags: 1

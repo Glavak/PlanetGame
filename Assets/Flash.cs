@@ -22,7 +22,6 @@ public class Flash : MonoBehaviour
         currentTime += Time.deltaTime;
 
         float currentPeriod = Mathf.Lerp(periodStart, periodEnd, currentTime / FlashingTime);
-        Debug.Log(currentPeriod);
         if (timeInCurrentState >= currentPeriod)
         {
             Visuals.SetActive(!Visuals.activeSelf);

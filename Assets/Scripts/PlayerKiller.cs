@@ -24,6 +24,6 @@ public class PlayerKiller : MonoBehaviour
     {
         if (ExplosionPrefab != null) Instantiate(ExplosionPrefab, transform.position, Quaternion.identity);
 
-        Destroy(this.gameObject);
+        Destroy(this.gameObject, .1f);
     }
 }

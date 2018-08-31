@@ -13,13 +13,15 @@ public class EnemyKiller : MonoBehaviour
             Destroy(this.gameObject);
 
             var otherPlayerKiller = other.GetComponent<PlayerKiller>();
-            if (otherPlayerKiller != null)otherPlayerKiller.Explode();
+            if (otherPlayerKiller != null) otherPlayerKiller.Explode();
         }
         else if (other.gameObject.CompareTag("Planet"))
         {
             var playerKiller = GetComponent<PlayerKiller>();
             if (playerKiller != null) playerKiller.Explode();
-            else Destroy(gameObject);
+            else Destroy(gameObject, .1f);
+
+            GameData.Instance.Expirience += 1;
         }
     }
 }

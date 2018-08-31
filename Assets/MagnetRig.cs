@@ -69,7 +69,7 @@ public class MagnetRig : MonoBehaviour
 
     private void SetAdvancePosition(float advance)
     {
-        const float magnetHeihgt = 2.5f;
+        const float magnetHeihgt = 3f;
 
         advance = Mathf.Clamp01(advance);
         advance = 1 - (1 - advance) * (1 - advance);
