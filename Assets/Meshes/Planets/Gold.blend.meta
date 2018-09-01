@@ -1,14 +1,29 @@
 fileFormatVersion: 2
-guid: 2a9787e70f2f516408f7ec7926040409
+guid: 6b255a42d9b27d3459fe5f594ab3cbd4
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
+    100002: Icosphere
+    100004: Mars
+    100006: Mars_001
     400000: //RootNode
+    400002: Icosphere
+    400004: Mars
+    400006: Mars_001
     2100000: Atlas
     2300000: //RootNode
+    2300002: Icosphere
+    2300004: Mars
+    2300006: Mars_001
     3300000: //RootNode
+    3300002: Icosphere
+    3300004: Mars
+    3300006: Mars_001
     4300000: Icosphere
+    4300002: Mars
+    4300004: Mars_001
+    4300006: Gold
     7400000: Default Take
     9500000: //RootNode
   externalObjects: {}

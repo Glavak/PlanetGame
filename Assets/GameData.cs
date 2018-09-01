@@ -30,6 +30,12 @@ public class GameData
         }
     }
 
+    public int PlanetSkin
+    {
+        get { return PlayerPrefs.GetInt("PlanetSkin", 0); }
+        set { PlayerPrefs.SetInt("PlanetSkin", value); }
+    }
+
     public event Action<int> OnLevelChanged;
 
     public int Level

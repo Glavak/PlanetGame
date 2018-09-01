@@ -56,6 +56,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Editor\BlenderRotationFix.cs" />
+    <Compile Include="Assets\Editor\DeletePlayerPrefs.cs" />
+    <Compile Include="Assets\Editor\TakeScreenshot.cs" />
     <None Include="Assets\EffectExamples\Editor\PackageManagerAssembly\PackageImportList.txt" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Documents/UnityGames/Planet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
