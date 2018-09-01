@@ -4,12 +4,14 @@ public class KillInteractable : MonoBehaviour
 {
     public bool KillPlayer;
     public bool KillEnemy;
-    public bool DestroyOnImpact = true;
 
     public bool DieFromPlanet;
     public bool DamagePlanet;
 
+    public bool DestroyOnImpact = true;
     public GameObject ExplosionPrefab;
+
+    public int CoinReward;
 
     private bool exploded;
 

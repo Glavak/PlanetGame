@@ -202,8 +202,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 0
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5

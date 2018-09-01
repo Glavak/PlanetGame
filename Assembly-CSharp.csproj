@@ -55,7 +55,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Asteroid.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\DecalDestroyer.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ExtinguishableFire.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\GunAim.cs" />
@@ -63,27 +62,29 @@
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleCollision.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleExamples.cs" />
     <Compile Include="Assets\EffectExamples\Shared\Scripts\ParticleMenu.cs" />
-    <Compile Include="Assets\Flash.cs" />
     <Compile Include="Assets\GameData.cs" />
-    <Compile Include="Assets\MagnetRig.cs" />
     <Compile Include="Assets\Managers\InputManager.cs" />
     <Compile Include="Assets\Managers\StepsManager.cs" />
-    <Compile Include="Assets\PlanetSkinSelector.cs" />
-    <Compile Include="Assets\PlayButton.cs" />
-    <Compile Include="Assets\PlayerExplosion.cs" />
-    <Compile Include="Assets\QuadBeams.cs" />
+    <Compile Include="Assets\Scripts\Asteroid.cs" />
     <Compile Include="Assets\Scripts\Beam.cs" />
+    <Compile Include="Assets\Scripts\CoinKillerReward.cs" />
     <Compile Include="Assets\Scripts\DestroyOutOfView.cs" />
     <Compile Include="Assets\Scripts\EnemyShip.cs" />
+    <Compile Include="Assets\Scripts\Flash.cs" />
     <Compile Include="Assets\Scripts\FlashAndSpawn.cs" />
     <Compile Include="Assets\Scripts\ForwardMover.cs" />
     <Compile Include="Assets\Scripts\KillInteractable.cs" />
+    <Compile Include="Assets\Scripts\MagnetRig.cs" />
     <Compile Include="Assets\Scripts\Menu\PlanetSkinSwitcher.cs" />
+    <Compile Include="Assets\Scripts\Menu\PlayButton.cs" />
+    <Compile Include="Assets\Scripts\PlanetSkinSelector.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
+    <Compile Include="Assets\Scripts\PlayerExplosion.cs" />
+    <Compile Include="Assets\Scripts\QuadBeams.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\UI\CoinsText.cs" />
     <Compile Include="Assets\Scripts\UI\LevelBar.cs" />
-    <Compile Include="Assets\Scripts\UI\ScoreText.cs" />
     <Compile Include="Assets\Steps\CrosshairStep.cs" />
     <Compile Include="Assets\Steps\MissilesStep.cs" />
     <Compile Include="Assets\Steps\SpawnStep.cs" />

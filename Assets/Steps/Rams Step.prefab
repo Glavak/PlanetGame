@@ -1355,11 +1355,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 1
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5
 --- !u!114 &114032513963409642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1493,11 +1494,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 1
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5
 --- !u!114 &114615710122615314
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1511,11 +1513,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 1
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5
 --- !u!114 &114788419456785430
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1529,11 +1532,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 1
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5
 --- !u!114 &114824277227290396
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1547,11 +1551,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 1
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5
 --- !u!114 &114991456640222566
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1565,11 +1570,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KillPlayer: 1
   KillEnemy: 1
-  DestroyOnImpact: 1
   DieFromPlanet: 0
   DamagePlanet: 0
+  DestroyOnImpact: 1
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
+  CoinReward: 5
 --- !u!198 &198083709683381428
 ParticleSystem:
   m_ObjectHideFlags: 1
