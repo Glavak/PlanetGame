@@ -74,13 +74,12 @@
     <Compile Include="Assets\QuadBeams.cs" />
     <Compile Include="Assets\Scripts\Beam.cs" />
     <Compile Include="Assets\Scripts\DestroyOutOfView.cs" />
-    <Compile Include="Assets\Scripts\EnemyKiller.cs" />
     <Compile Include="Assets\Scripts\EnemyShip.cs" />
     <Compile Include="Assets\Scripts\FlashAndSpawn.cs" />
     <Compile Include="Assets\Scripts\ForwardMover.cs" />
+    <Compile Include="Assets\Scripts\KillInteractable.cs" />
     <Compile Include="Assets\Scripts\Menu\PlanetSkinSwitcher.cs" />
     <Compile Include="Assets\Scripts\PlayerControls.cs" />
-    <Compile Include="Assets\Scripts\PlayerKiller.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
     <Compile Include="Assets\Scripts\UI\LevelBar.cs" />

@@ -21,9 +21,10 @@ GameObject:
   - component: {fileID: 4205672261898448}
   - component: {fileID: 120938648920326910}
   - component: {fileID: 114500945486646682}
-  - component: {fileID: 114375264315709812}
-  - component: {fileID: 61814003427587534}
+  - component: {fileID: 114832376200884658}
   - component: {fileID: 114786534996419574}
+  - component: {fileID: 61814003427587534}
+  - component: {fileID: 50500803145987476}
   m_Layer: 0
   m_Name: Red Laser
   m_TagString: Untagged
@@ -44,6 +45,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &50500803145987476
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1350110748457014}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61814003427587534
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -53,7 +74,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.35}
@@ -69,17 +90,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.13391879, y: 0.81037235}
   m_EdgeRadius: 0
---- !u!114 &114375264315709812
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1350110748457014}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114500945486646682
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -127,6 +137,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7edb3a0ad05a7384c8334c302087339a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114832376200884658
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1350110748457014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 0
+  DestroyOnImpact: 1
+  DieFromPlanet: 1
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 0}
 --- !u!120 &120938648920326910
 LineRenderer:
   m_ObjectHideFlags: 1

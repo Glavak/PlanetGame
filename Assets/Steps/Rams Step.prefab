@@ -52,9 +52,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4003173738940204}
+  - component: {fileID: 114018725739153742}
   - component: {fileID: 61001712932645598}
   - component: {fileID: 61483406192945806}
-  - component: {fileID: 114548226689330878}
+  - component: {fileID: 50497676688534006}
   m_Layer: 0
   m_Name: Ship Ram (2)
   m_TagString: Enemy
@@ -70,9 +71,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4568527500177280}
+  - component: {fileID: 114788419456785430}
   - component: {fileID: 61631509202034472}
   - component: {fileID: 61832213456083420}
-  - component: {fileID: 114560037069546226}
+  - component: {fileID: 50020140932923260}
   m_Layer: 0
   m_Name: Ship Ram
   m_TagString: Enemy
@@ -88,9 +90,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4525323178659544}
+  - component: {fileID: 114824277227290396}
   - component: {fileID: 61553887131263826}
   - component: {fileID: 61012926244986760}
-  - component: {fileID: 114983624183281276}
+  - component: {fileID: 50127909726235694}
   m_Layer: 0
   m_Name: Ship Ram (1)
   m_TagString: Enemy
@@ -274,9 +277,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4802478459406804}
+  - component: {fileID: 114991456640222566}
   - component: {fileID: 61931919496922284}
   - component: {fileID: 61594337964736460}
-  - component: {fileID: 114295342196512784}
+  - component: {fileID: 50806597817933926}
   m_Layer: 0
   m_Name: Ship Ram (2)
   m_TagString: Enemy
@@ -309,9 +313,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4422379151463774}
+  - component: {fileID: 114615710122615314}
   - component: {fileID: 61957732678082748}
   - component: {fileID: 61319472946206020}
-  - component: {fileID: 114120837894166184}
+  - component: {fileID: 50134848762137228}
   m_Layer: 0
   m_Name: Ship Ram (1)
   m_TagString: Enemy
@@ -327,9 +332,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4844832846649356}
+  - component: {fileID: 114593097853682746}
   - component: {fileID: 61238972464185990}
   - component: {fileID: 61718897806660412}
-  - component: {fileID: 114562814001032734}
+  - component: {fileID: 50580295058305676}
   m_Layer: 0
   m_Name: Ship Ram
   m_TagString: Enemy
@@ -916,6 +922,126 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1431033583816682}
   m_Mesh: {fileID: 4300000, guid: 1ad63f9cee134574f873c60242bff71e, type: 3}
+--- !u!50 &50020140932923260
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411639776465778}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50127909726235694
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1418257170624410}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50134848762137228
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874807048923320}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50497676688534006
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383969660969864}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50580295058305676
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1885963339422456}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50806597817933926
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752254659141590}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61001712932645598
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -925,7 +1051,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.1656982}
@@ -950,7 +1076,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0054724216, y: -2.0960693}
@@ -975,7 +1101,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.1656982}
@@ -1000,7 +1126,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0054724216, y: -2.0960693}
@@ -1025,7 +1151,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0054724216, y: -2.0960693}
@@ -1050,7 +1176,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.1656982}
@@ -1075,7 +1201,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0054724216, y: -2.0960693}
@@ -1100,7 +1226,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.1656982}
@@ -1125,7 +1251,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0054724216, y: -2.0960693}
@@ -1150,7 +1276,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0054724216, y: -2.0960693}
@@ -1175,7 +1301,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.1656982}
@@ -1200,7 +1326,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -1.1656982}
@@ -1216,6 +1342,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.4776437}
   m_EdgeRadius: 0
+--- !u!114 &114018725739153742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1383969660969864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
 --- !u!114 &114032513963409642
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1270,20 +1414,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   Multiplier: {x: 0, y: 10, z: 0}
---- !u!114 &114120837894166184
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1874807048923320}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 1
-  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
-    type: 2}
 --- !u!114 &114193661697620800
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1338,20 +1468,6 @@ MonoBehaviour:
     m_PostInfinity: 2
     m_RotationOrder: 4
   Multiplier: {x: 0, y: 10, z: 0}
---- !u!114 &114295342196512784
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1752254659141590}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 1
-  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
-    type: 2}
 --- !u!114 &114460319065769560
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1364,35 +1480,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimeTotal: 5.5
---- !u!114 &114548226689330878
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1383969660969864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 1
-  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
-    type: 2}
---- !u!114 &114560037069546226
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1411639776465778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 1
-  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
-    type: 2}
---- !u!114 &114562814001032734
+--- !u!114 &114593097853682746
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1400,13 +1488,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 1885963339422456}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroySelf: 1
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
---- !u!114 &114983624183281276
+--- !u!114 &114615710122615314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1874807048923320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
+--- !u!114 &114788419456785430
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1411639776465778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
+--- !u!114 &114824277227290396
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1414,10 +1542,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 1418257170624410}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroySelf: 1
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
+    type: 2}
+--- !u!114 &114991456640222566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1752254659141590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
   ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
     type: 2}
 --- !u!198 &198083709683381428

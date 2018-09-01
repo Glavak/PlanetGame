@@ -55,5 +55,5 @@ MonoBehaviour:
     type: 2}
   MissileCount: 12
   BurstsCount: 3
-  BurstInterval: 1.3
+  BurstInterval: 1.15
   BurstOffset: 15

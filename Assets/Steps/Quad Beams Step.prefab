@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4424296235951628}
   - component: {fileID: 114039428446442258}
   m_Layer: 0
-  m_Name: Crosshairs Quad Step
+  m_Name: Quad Beams Step
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

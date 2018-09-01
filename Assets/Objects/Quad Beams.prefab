@@ -20,8 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4179847394994258}
   - component: {fileID: 212912247045609768}
+  - component: {fileID: 114770467841267240}
   - component: {fileID: 61638017622562824}
-  - component: {fileID: 114593651498360138}
+  - component: {fileID: 50876019253459510}
   m_Layer: 0
   m_Name: Visuals
   m_TagString: Untagged
@@ -56,7 +57,7 @@ GameObject:
   - component: {fileID: 4937561581381000}
   - component: {fileID: 114916363449863678}
   m_Layer: 0
-  m_Name: Crosshairs Quad Beams
+  m_Name: Quad Beams
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -121,8 +122,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4130565290604148}
   - component: {fileID: 212916498963086182}
+  - component: {fileID: 114157144751277566}
   - component: {fileID: 61420722888948726}
-  - component: {fileID: 114886761186166810}
+  - component: {fileID: 50890619538264252}
   m_Layer: 0
   m_Name: Visuals
   m_TagString: Untagged
@@ -189,8 +191,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4378409859398762}
   - component: {fileID: 212611529175390174}
+  - component: {fileID: 114381853858429368}
   - component: {fileID: 61679342857137170}
-  - component: {fileID: 114836420079146416}
+  - component: {fileID: 50758420908223852}
   m_Layer: 0
   m_Name: Visuals
   m_TagString: Untagged
@@ -323,8 +326,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4769771248064426}
   - component: {fileID: 212468471809690468}
+  - component: {fileID: 114390353303295660}
   - component: {fileID: 61608601538253552}
-  - component: {fileID: 114529383356362950}
+  - component: {fileID: 50669094506428126}
   m_Layer: 0
   m_Name: Visuals
   m_TagString: Untagged
@@ -1576,6 +1580,86 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764849518041946}
   m_Mesh: {fileID: 4300012, guid: 54c8e13ef328500468cacaa1fb636d86, type: 3}
+--- !u!50 &50669094506428126
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1652950557086876}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50758420908223852
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390855116986860}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50876019253459510
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1051944707227540}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!50 &50890619538264252
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273477291730714}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!61 &61420722888948726
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -1585,7 +1669,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.008733049, y: -0.8508961}
@@ -1610,7 +1694,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.008733049, y: -0.8508961}
@@ -1635,7 +1719,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.008733049, y: -0.8508961}
@@ -1660,7 +1744,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.008733049, y: -0.8508961}
@@ -1748,6 +1832,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114157144751277566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1273477291730714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 0
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 0}
 --- !u!114 &114324194319701482
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1788,7 +1889,24 @@ MonoBehaviour:
   - {fileID: 1902683070831120}
   - {fileID: 1292581864406206}
   BeamKiller: {fileID: 1652950557086876}
---- !u!114 &114529383356362950
+--- !u!114 &114381853858429368
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390855116986860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 0
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 0}
+--- !u!114 &114390353303295660
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1796,23 +1914,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1652950557086876}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroySelf: 0
-  ExplosionPrefab: {fileID: 0}
---- !u!114 &114593651498360138
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1051944707227540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 0
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 0
+  DieFromPlanet: 0
+  DamagePlanet: 0
   ExplosionPrefab: {fileID: 0}
 --- !u!114 &114766916149816332
 MonoBehaviour:
@@ -1834,18 +1943,22 @@ MonoBehaviour:
   - {fileID: 1816737935228206}
   - {fileID: 1063000600233194}
   BeamKiller: {fileID: 1051944707227540}
---- !u!114 &114836420079146416
+--- !u!114 &114770467841267240
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1390855116986860}
+  m_GameObject: {fileID: 1051944707227540}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroySelf: 0
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 0
+  DieFromPlanet: 0
+  DamagePlanet: 0
   ExplosionPrefab: {fileID: 0}
 --- !u!114 &114853977122965804
 MonoBehaviour:
@@ -1867,19 +1980,6 @@ MonoBehaviour:
   - {fileID: 1795541302213594}
   - {fileID: 1569752688938774}
   BeamKiller: {fileID: 1390855116986860}
---- !u!114 &114886761186166810
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1273477291730714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 0
-  ExplosionPrefab: {fileID: 0}
 --- !u!114 &114916363449863678
 MonoBehaviour:
   m_ObjectHideFlags: 1

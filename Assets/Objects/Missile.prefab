@@ -20,10 +20,11 @@ GameObject:
   m_Component:
   - component: {fileID: 4937561581381000}
   - component: {fileID: 114103167519875434}
-  - component: {fileID: 114858567837977372}
+  - component: {fileID: 114615771373280584}
   - component: {fileID: 114167014210991248}
-  - component: {fileID: 70461756373396836}
   - component: {fileID: 114766218265982648}
+  - component: {fileID: 70461756373396836}
+  - component: {fileID: 50855713693251440}
   m_Layer: 0
   m_Name: Missile
   m_TagString: Enemy
@@ -149,6 +150,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1131443946928180}
   m_Mesh: {fileID: 4300002, guid: 2f9246738fbbb6245bfeab0625974cda, type: 3}
+--- !u!50 &50855713693251440
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085935588958536}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!70 &70461756373396836
 CapsuleCollider2D:
   m_ObjectHideFlags: 1
@@ -158,7 +179,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0017825961, y: -0.087346554}
@@ -238,6 +259,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7edb3a0ad05a7384c8334c302087339a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &114615771373280584
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1085935588958536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8aa7047b1f7ab6a45a27d4c2178853fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  KillPlayer: 1
+  KillEnemy: 1
+  DestroyOnImpact: 1
+  DieFromPlanet: 0
+  DamagePlanet: 0
+  ExplosionPrefab: {fileID: 0}
 --- !u!114 &114766218265982648
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -249,20 +287,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bef24624374b69544b4191821b039494, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114858567837977372
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1085935588958536}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c281ee704cc8944eaabf42978f76101, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DestroySelf: 1
-  ExplosionPrefab: {fileID: 1936387009606752, guid: fa13a2cf9cf98704fa77bedc5e41845c,
-    type: 2}
 --- !u!198 &198590658499216536
 ParticleSystem:
   m_ObjectHideFlags: 1
