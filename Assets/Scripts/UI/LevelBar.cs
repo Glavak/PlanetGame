@@ -11,11 +11,14 @@ public class LevelBar : MonoBehaviour
     private void Start()
     {
         CurrentLevel.text = GameData.Instance.Level.ToString();
-        NextLevel.text = (GameData.Instance.Level + 1).ToString();
+        if (NextLevel != null) NextLevel.text = (GameData.Instance.Level + 1).ToString();
     }
 
     private void Update()
     {
-        ExpirienceImage.fillAmount = GameData.Instance.Expirience / GameData.Instance.ExpirienceRequiredForLevelUp();
+        if (ExpirienceImage != null)
+        {
+            ExpirienceImage.fillAmount = GameData.Instance.Expirience / GameData.Instance.ExpirienceRequiredForLevelUp();
+        }
     }
 }

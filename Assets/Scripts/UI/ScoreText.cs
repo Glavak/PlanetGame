@@ -15,6 +15,6 @@ public class ScoreText : MonoBehaviour
     {
         time += Time.deltaTime;
 
-        text.text = "Score: " + (int)time;
+        text.text = "" + (int)time;
     }
 }
