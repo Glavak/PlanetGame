@@ -14,8 +14,6 @@ public class MagnetRig : MonoBehaviour
     private float fullyAdvancedY;
     private bool spawningAsteroids = true;
 
-    private readonly List<Asteroid> spawnedAsteroids = new List<Asteroid>();
-
     private void Start()
     {
         fullyAdvancedY = MagnetWithStand.localPosition.y;
@@ -54,17 +52,6 @@ public class MagnetRig : MonoBehaviour
     private void FixedUpdate()
     {
         if (spawningAsteroids && Random.value < 1f * Time.fixedDeltaTime) SpawnAsteroid();
-
-        spawnedAsteroids.RemoveAll(s => s == null);
-        foreach (var asteroid in spawnedAsteroids)
-        {
-            asteroid.transform.Translate(asteroid.Velocity * Time.fixedDeltaTime, Space.World);
-        }
-    }
-
-    private void OnDestroy()
-    {
-        foreach (var asteroid in spawnedAsteroids) Destroy(asteroid.gameObject);
     }
 
     private void SetAdvancePosition(float advance)
@@ -80,13 +67,10 @@ public class MagnetRig : MonoBehaviour
     private void SpawnAsteroid()
     {
         float angle = Random.Range(-60, 60) * Mathf.Deg2Rad;
-        Vector3 position = new Vector3(Mathf.Sin(angle), Mathf.Cos(angle)) * 30 + MagnetWithStand.position;
-        Vector3 velocity = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f)) * 5 -
-                           new Vector3(Mathf.Sin(angle), Mathf.Cos(angle)) * 10;
+        Vector3 position = new Vector3(Mathf.Sin(angle), Mathf.Cos(angle)) * 36 + MagnetWithStand.localPosition;
 
         Asteroid asteroid = Instantiate(AsteroidPrefab, transform);
         asteroid.transform.localPosition = position;
-        asteroid.Velocity = transform.localToWorldMatrix*velocity;
-        spawnedAsteroids.Add(asteroid);
+        asteroid.transform.SetParent(null, true);
     }
 }
