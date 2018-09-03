@@ -89,6 +89,7 @@
     <Compile Include="Assets\Steps\MissilesStep.cs" />
     <Compile Include="Assets\Steps\SpawnStep.cs" />
     <Compile Include="Assets\Steps\TimedStep.cs" />
+    <Compile Include="Assets\TimeStopper.cs" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Documents/UnityGames/Planet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
