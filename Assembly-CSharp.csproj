@@ -83,13 +83,13 @@
     <Compile Include="Assets\Scripts\QuadBeams.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
     <Compile Include="Assets\Scripts\Shooter.cs" />
+    <Compile Include="Assets\Scripts\TimeStopper.cs" />
     <Compile Include="Assets\Scripts\UI\CoinsText.cs" />
     <Compile Include="Assets\Scripts\UI\LevelBar.cs" />
     <Compile Include="Assets\Steps\CrosshairStep.cs" />
     <Compile Include="Assets\Steps\MissilesStep.cs" />
     <Compile Include="Assets\Steps\SpawnStep.cs" />
     <Compile Include="Assets\Steps\TimedStep.cs" />
-    <Compile Include="Assets\TimeStopper.cs" />
     <None Include="Assets\EffectExamples\Shared\Shaders\SurfaceShader_VC.shader" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>D:/Documents/UnityGames/Planet/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

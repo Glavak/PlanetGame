@@ -167,6 +167,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 730f1523bed4e1941b25ceccaea408bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CoinRewardAnimation: {fileID: 224744892225257882, guid: 4dec5fa14e790f44c8be8d374d25cbc3,
+    type: 2}
 --- !u!120 &120938648920326910
 LineRenderer:
   m_ObjectHideFlags: 1

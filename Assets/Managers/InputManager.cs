@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class InputManager : MonoBehaviour
 {
@@ -36,13 +37,14 @@ public class InputManager : MonoBehaviour
         foreach (Touch touch in Input.touches)
         {
             if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled) continue;
+            if (EventSystem.current.IsPointerOverGameObject(touch.fingerId)) continue;
 
             if (Camera.main.ScreenToViewportPoint(touch.position).x < 0.5) axisTargetPosition--;
             else axisTargetPosition++;
         }
 
 #if UNITY_EDITOR
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && !EventSystem.current.IsPointerOverGameObject())
         {
             if (Camera.main.ScreenToViewportPoint(Input.mousePosition).x < 0.5) axisTargetPosition--;
             else axisTargetPosition++;
